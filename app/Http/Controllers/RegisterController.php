@@ -7,18 +7,16 @@ use Illuminate\Http\Request;
 class RegisterController extends Controller
 {
     
-	public function register(){
+	// public function register(){
+	// 	return view('register');
+	// }
 
+	// public function welcome(request $request){
 
-		return view('register');
-	}
+	// 	$fname = $request['fname'];
+	// 	$lname = $request['lname'];
 
-	public function welcome(request $request){
-
-		$fname = $request['fname'];
-		$lname = $request['lname'];
-
-		return view('welcome',['fname'=>$fname, 'lname'=>$lname]);
-	}
+	// 	return view('welcome',['fname'=>$fname, 'lname'=>$lname]);
+	// }
 
 }

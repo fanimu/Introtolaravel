@@ -1,16 +1,16 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title> -->
+        <title>Laravel</title>
 
         <!-- Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <!-- <style>
+        <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -97,15 +97,17 @@
             </div>
         </div>
     </body>
-</html> -->
+</html>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Hari 1 - Berlatih HTML</title>
 </head>
 <body>
-    <h2>SELAMAT DATANG {{$fname}} {{$lname}} </h2>
+    <h2>SELAMAT DATANG <?php //{{$fname}} {{$lname}} ?> </h2>
     <h3>Terima kasih telah bergabung di Sanberbook. Social Media kita bersama!</h3>
 </body>
-</html>
+</html> -->
+
+

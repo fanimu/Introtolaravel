@@ -16,26 +16,26 @@
 // });
 
 Route::get('/', function () {
-    return view('home');
+    return view('tugasitems.index');
 });
 
-// Route::get('/register', function () {
-//     return view('register');
-// });
+Route::get('/data-tables', function () {
+    return view('tugasitems.data-tables');
+});
 
-// Route::post('/welcome', function () {
-//     return view('welcome');
-// });
+Route::get('/master', function () {
+    return view('/adminlte.master');
+});
 
-Route::get('/register', 'RegisterController@register');
+Route::get('/items', function(){
+	return view('/items.index');
+});
 
-//Route::get('/welcome', 'RegisterController@welcome');
-Route::post('/welcome', 'RegisterController@welcome');
+Route::get('/items/create', function(){
+	return view('items.create');
+});
+
+// Route::get('/register', 'RegisterController@register');
+// Route::post('/welcome', 'RegisterController@welcome');
 
 
-
-
-
-// Route::get('/halo/{nama}', function ($nama) {
-//     return "halo $nama";
-// });
