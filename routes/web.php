@@ -35,6 +35,18 @@ Route::get('/items/create', function(){
 	return view('items.create');
 });
 
+// tugas CRUD
+
+Route::get('/pertanyaans/create', 'PertanyaanController@create');
+Route::post('/pertanyaans', 'PertanyaanController@store');
+Route::get('/pertanyaans', 'PertanyaanController@index');
+Route::get('/pertanyaans/{id}', 'PertanyaanController@show');
+Route::get('/pertanyaans/{id}/edit', 'PertanyaanController@edit');
+Route::put('/pertanyaans/{id}', 'PertanyaanController@update');
+Route::delete('/pertanyaans/{id}', 'PertanyaanController@destroy');
+
+
+
 // Route::get('/register', 'RegisterController@register');
 // Route::post('/welcome', 'RegisterController@welcome');
 
